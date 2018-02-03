@@ -6,4 +6,3 @@ urllib3==1.22
 pytelegrambotapi
 googletrans
 bs4
-urllib3
