@@ -3,8 +3,6 @@ import requests
 import bs4
 import telebot
 import config
-import urllib3
-import json
 from googletrans import Translator
 from time import sleep
 
