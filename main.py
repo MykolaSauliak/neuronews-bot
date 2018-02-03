@@ -27,7 +27,7 @@ def main():
     URL = 'http://neurosciencenews.com/neuroscience-topics/neuroscience'
     r = requests.get(URL)
 
-    soup = bs4.BeautifulSoup(r.content, 'lxml')
+    soup = bs4.BeautifulSoup(r.content, 'html')
 
     blocks = soup.find_all(attrs={'class':'cb-blog-style-a'})
 
