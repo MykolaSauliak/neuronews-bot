@@ -6,3 +6,4 @@ urllib3==1.22
 pytelegrambotapi
 googletrans
 beautifulsoup4
+psycopg2
